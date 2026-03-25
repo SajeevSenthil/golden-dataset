@@ -71,7 +71,7 @@ graph TD
     C --> D{Fetch Transcript}
     D -->|Success| E[Process Data Structure]
     D -->|Failure| H([Error Handling])
-    E --> F[Format Content (ID, Text, Start, End)]
+    E --> F["Format Content (ID, Text, Start, End)"]
     F --> G[/Save to JSON File/]
     G --> I([End])
 
